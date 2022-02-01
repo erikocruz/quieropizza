@@ -11,6 +11,5 @@ namespace QuieroPizza.BL
         public int Id { get; set; }
         public string Descripcion { get; set; }
         public double Precio { get; set; }
-        //public int Existencia { get; set; }
     }
 }

@@ -23,9 +23,9 @@ namespace QuieroPizza.Win
             var productosBL = new ProductosBL();
             var listadeProductos = productosBL.ObtenerProductos();
 
-            foreach (var productos in listadeProductos)
+            foreach (var producto in listadeProductos)
             {
-                MessageBox.Show(productos.Descripcion);
+                MessageBox.Show(producto.Descripcion);
             }
         }
     }
