@@ -21,7 +21,5 @@ namespace QuieroPizza.Win
 
             listadeProductosBindingSource.DataSource = listadeProductos;
         }
-
-  
     }
 }
